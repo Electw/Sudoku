@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 
 public class TileClickHandler implements ActionListener {
 	
-	SudokuGame game;
+	private SudokuGame game;
 
 	public TileClickHandler(SudokuGame game) {
 		this.game = game;

@@ -9,7 +9,7 @@ import javax.swing.border.Border;
 
 public class SudokuGame extends JFrame{
 
-	int[][] gameBoard =
+	private int[][] gameBoard =
 		{{5,3,4,6,7,8,9,1,2},
 		{6,7,2,1,9,5,3,4,8},
 		{1,9,8,3,4,2,5,6,7},
@@ -20,7 +20,7 @@ public class SudokuGame extends JFrame{
 		{2,8,7,4,1,9,6,3,5},
 		{3,4,5,2,8,6,1,7,9}};
 			
-	boolean[][] hasNum =
+	private boolean[][] hasNum =
 		{{true,true,false,false,true,false,false,false,false},
 		{true,false,false,true,true,true,false,false,false},
 		{false,true,true,false,false,false,false,true,false},
@@ -31,7 +31,7 @@ public class SudokuGame extends JFrame{
 		{false,false,false,true,true,true,false,false,true},
 		{false,false,false,false,true,false,false,true,true}};
 	
-	Button[][] smolBois = new Button[9][9];
+	private Button[][] smolBois = new Button[9][9];
 	
 	// Value user is inputting into a certain square
 	private int userInput;
