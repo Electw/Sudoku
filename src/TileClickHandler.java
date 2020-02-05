@@ -15,7 +15,7 @@ public class TileClickHandler implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent ae) {
-		JButton b1 = (JButton) ae.getSource();
+		JButton b1 = (JButton)ae.getSource();
 		// Check if the action was on a Button or numButton
 		if (b1 instanceof Button) {
 			Button b = (Button)b1;

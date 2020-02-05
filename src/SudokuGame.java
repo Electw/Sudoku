@@ -33,8 +33,8 @@ public class SudokuGame extends JFrame{
 	
 	private Button[][] smolBois = new Button[9][9];
 	
-	// Value user is inputting into a certain square
-	private int userInput;
+	// Value user is inputting into a certain square, default is 1
+	private int userInput = 1;
 	
 	public SudokuGame() {
 		super("Sudoku Game");

@@ -25,7 +25,7 @@ public class Button extends JButton {
 		if (vis == true && num != 0) {
 			this.setText(Integer.toString(num));
 			this.displayNum = num;
-		}
+		} 
 	}
 	
 	// Getter for display integer
